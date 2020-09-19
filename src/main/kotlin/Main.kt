@@ -13,5 +13,5 @@ fun main() {
 
 private fun print(likes: Int, man: String, people: String) {
     var ending = if (likes % 10 == 1 && likes != 11) man else people;
-    println("Понра $likes $ending");
+    println("Понравилось $likes $ending");
 }
